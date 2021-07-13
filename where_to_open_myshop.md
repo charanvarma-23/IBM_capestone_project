@@ -30,8 +30,9 @@ So, I will cross data from working days, and localisations.
 ### I will use the following API:
 Foursquare API: to find restaurant/venues
 ### the neighbourhood data looks like this 
-![neighbourhood] ![ibmw4im1](https://user-images.githubusercontent.com/68729609/125491862-7f514a29-aa59-4a3d-89a4-a38865949710.png)
+![neighbourhood](https://user-images.githubusercontent.com/68729609/125493624-22ae41c8-5e49-4ff1-bbe3-dcbf6f8397ee.png)
 ### single venue given by foursquare api would look like this
+'''json
 {'id': '4c783cef3badb1f7e4244b54',
   'name': 'Carvel Ice Cream',
   'location': {'address': '1006 E 233rd St',
@@ -59,4 +60,4 @@ Foursquare API: to find restaurant/venues
     'primary': True}],
   'referralId': 'v-1626194459',
   'hasPerk': False},
-
+'''
