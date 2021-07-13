@@ -60,4 +60,4 @@ Foursquare API: to find restaurant/venues
     'primary': True}],
   'referralId': 'v-1626194459',
   'hasPerk': False},
-'''
+
