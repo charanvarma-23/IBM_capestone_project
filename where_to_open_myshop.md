@@ -1,36 +1,62 @@
 # Introduction
 ## Background
-Indian food is growing stronger in all over world. Indian restaurants are very often crowded especially in Dallas,USA area.
+In this final project I am going to discuss, analyze the data of restraunts in NEWYOKCITY, the aim of this project eventually is going to be segmenting the restraunts in NYC with corresponding traditional cuisines
 
-This project aims to estimate the best localization to open such a business in Dallas city . which have many colleges, museums, and a modern metropolis in north Texas
-
-Prior launching any restaurant, it’s important to know if the business as a good opportunity. In order to do so, this report will try to gather data about other restaurant localization, competitors and best localization.
-
-These data could be use for a business plan afterward
 
 ## Problem 
-As the goal of this is to create a business plan in the end, we need to make sure data from api are correct. We also need to check that customer could be interested in this specific business.
-## target audience
-so clients who would like to open a restaurant in Dellas are my target
-mainly Indian's living in Dellas are my target audience and secondarily comes the foreigners who adore indian cuisiens
+- Do cluster analysis for all food related venues and find optimal locaation(s) for establishing new restraunt inn NYC ,using Foursquare api
 
+I am taking the newyork city data set as given from assignment and making a model to cluster the data in such a way that we will be goin to have perfect idea on how different type restraunts are functioning well in their repective surroundings
+so data of neighbours is taken from web and respectvive restraunts data is scraped using FOURSQUARE's places,venue api
 
-## why restaurant: 
-N=in recent days many people from India a re moving to state and 68% among them live in Dallas, so keeping the demand for Indian food as a key parameter ,I initiated this project
+## target audience/stakeholders
+for a person who wants to open restraunt in NYC this project will be helpful in choosing place for his type of restraunt. Or this can also be focused for people who are planning for online food delivery startups. they can use this for opening new branches in optimal location(s) near to major restraunts 
 
-# description of the data 
-This notebook is highly inspirated by the template given in the course. I will keep the idea of clustering the city by area and then plot heatmap to find better area.
-- Data is taken from foursquare API
-- This data may include offices, universities, crowded areas like theaters and parks in Dallas
+# Data
+## description of the data
+source :  https://geo.nyu.edu/catalog/nyu_2451_34572
+NYC has many neighbourhoods(nothing but major landmarks). the above source provide many such major neighbourhoods in NYC
+here comes https://foursquare.com/ we use this for getting all venues within provided radius of all neighbouhoods
+- we got 305 neighbours
+- venues are taken from foursquare API
+- This data may include offices, universities, crowded areas like theaters and parks in NYC
 - data will have latitudes and longitues of such workplaces and we'll find optimum location in various clustered regions
 
-### I will change some data from week3 assignment:
-Country/City: Dallas
+## so data is
+Country/City: NYC
 Goal: Open a restaurant for  workers in weekdays
 So, I will cross data from working days, and localisations.
 
 ### I will use the following API:
-
 Foursquare API: to find restaurant/venues
-Google API: reverse geolocalisation
+### the neighbourhood data looks like this 
+![neighbourhood] ![ibmw4im1](https://user-images.githubusercontent.com/68729609/125491862-7f514a29-aa59-4a3d-89a4-a38865949710.png)
+### single venue given by foursquare api would look like this
+{'id': '4c783cef3badb1f7e4244b54',
+  'name': 'Carvel Ice Cream',
+  'location': {'address': '1006 E 233rd St',
+   'lat': 40.890486685759605,
+   'lng': -73.84856772568665,
+   'labeledLatLngs': [{'label': 'display',
+     'lat': 40.890486685759605,
+     'lng': -73.84856772568665},
+    {'label': 'entrance', 'lat': 40.890438, 'lng': -73.848559}],
+   'distance': 483,
+   'postalCode': '10466',
+   'cc': 'US',
+   'city': 'Bronx',
+   'state': 'NY',
+   'country': 'United States',
+   'formattedAddress': ['1006 E 233rd St',
+    'Bronx, NY 10466',
+    'United States']},
+  'categories': [{'id': '4bf58dd8d48988d1c9941735',
+    'name': 'Ice Cream Shop',
+    'pluralName': 'Ice Cream Shops',
+    'shortName': 'Ice Cream',
+    'icon': {'prefix': 'https://ss3.4sqi.net/img/categories_v2/food/icecream_',
+     'suffix': '.png'},
+    'primary': True}],
+  'referralId': 'v-1626194459',
+  'hasPerk': False},
 
