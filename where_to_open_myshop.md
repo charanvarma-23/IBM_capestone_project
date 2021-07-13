@@ -13,19 +13,19 @@ As the goal of this is to create a business plan in the end, we need to make sur
 
 Maybe they will need to modify some data.
 
-why restaurant: 
+## why restaurant: 
 N=in recent days many people from India a re moving to state and 68% among them live in Dallas, so keeping the demand for Indian food as a key parameter ,I initiated this project
 
-Data 
+## Data 
 This notebook is highly inspirated by the template given in the course. I will keep the idea of clustering the city by area and then plot heatmap to find better area.
 
-I will change some data:
+### I will change some data:
 
 Country/City: Dallas
 Goal: Open a restaurant for  workers in weekdays
 So, I will cross data from working days, and localisations.
 
-I will use the following API:
+### I will use the following API:
 
 Foursquare API: to find restaurant/venues
 Google API: reverse geolocalisation
