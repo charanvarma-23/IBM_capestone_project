@@ -10,17 +10,21 @@ These data could be use for a business plan afterward
 
 ## Problem 
 As the goal of this is to create a business plan in the end, we need to make sure data from api are correct. We also need to check that customer could be interested in this specific business.
+## target audience
+so clients who would like to open a restaurant in Dellas are my target
+mainly Indian's living in Dellas are my target audience and secondarily comes the foreigners who adore indian cuisiens
 
-Maybe they will need to modify some data.
 
 ## why restaurant: 
 N=in recent days many people from India a re moving to state and 68% among them live in Dallas, so keeping the demand for Indian food as a key parameter ,I initiated this project
 
-## Data 
+# description of the data 
 This notebook is highly inspirated by the template given in the course. I will keep the idea of clustering the city by area and then plot heatmap to find better area.
+- Data is taken from foursquare API
+- This data may include offices, universities, crowded areas like theaters and parks in Dallas
+- data will have latitudes and longitues of such workplaces and we'll find optimum location in various clustered regions
 
-### I will change some data:
-
+### I will change some data from week3 assignment:
 Country/City: Dallas
 Goal: Open a restaurant for  workers in weekdays
 So, I will cross data from working days, and localisations.
@@ -29,7 +33,4 @@ So, I will cross data from working days, and localisations.
 
 Foursquare API: to find restaurant/venues
 Google API: reverse geolocalisation
-
-## target audience
-mainly Indian's living in Dellas are my target audience and secondarily comes the foreigners who adore indian cuisiens
 
