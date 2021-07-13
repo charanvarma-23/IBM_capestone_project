@@ -32,33 +32,5 @@ Foursquare API: to find restaurant/venues
 ### the neighbourhood data looks like this 
 ![neighbourhood](https://user-images.githubusercontent.com/68729609/125493624-22ae41c8-5e49-4ff1-bbe3-dcbf6f8397ee.png)
 ### single venue given by foursquare api would look like this
-'''json
-{'id': '4c783cef3badb1f7e4244b54',
-  'name': 'Carvel Ice Cream',
-  'location': {'address': '1006 E 233rd St',
-   'lat': 40.890486685759605,
-   'lng': -73.84856772568665,
-   'labeledLatLngs': [{'label': 'display',
-     'lat': 40.890486685759605,
-     'lng': -73.84856772568665},
-    {'label': 'entrance', 'lat': 40.890438, 'lng': -73.848559}],
-   'distance': 483,
-   'postalCode': '10466',
-   'cc': 'US',
-   'city': 'Bronx',
-   'state': 'NY',
-   'country': 'United States',
-   'formattedAddress': ['1006 E 233rd St',
-    'Bronx, NY 10466',
-    'United States']},
-  'categories': [{'id': '4bf58dd8d48988d1c9941735',
-    'name': 'Ice Cream Shop',
-    'pluralName': 'Ice Cream Shops',
-    'shortName': 'Ice Cream',
-    'icon': {'prefix': 'https://ss3.4sqi.net/img/categories_v2/food/icecream_',
-     'suffix': '.png'},
-    'primary': True}],
-  'referralId': 'v-1626194459',
-  'hasPerk': False}
+![venue from foursquare ](https://user-images.githubusercontent.com/68729609/125494737-a03f25ab-a626-43f0-b3e0-0b206050a5ca.png)
 
-'''
