@@ -29,3 +29,7 @@ So, I will cross data from working days, and localisations.
 
 Foursquare API: to find restaurant/venues
 Google API: reverse geolocalisation
+
+## target audience
+mainly Indian's living in Dellas are my target audience and secondarily comes the foreigners who adore indian cuisiens
+
