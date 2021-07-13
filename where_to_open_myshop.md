@@ -32,7 +32,7 @@ Foursquare API: to find restaurant/venues
 ### the neighbourhood data looks like this 
 ![neighbourhood](https://user-images.githubusercontent.com/68729609/125493624-22ae41c8-5e49-4ff1-bbe3-dcbf6f8397ee.png)
 ### single venue given by foursquare api would look like this
-'''ymal
+'''json
 {'id': '4c783cef3badb1f7e4244b54',
   'name': 'Carvel Ice Cream',
   'location': {'address': '1006 E 233rd St',
